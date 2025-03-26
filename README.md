@@ -1,7 +1,8 @@
-# OfficeBuddyPrime_LLMAgentic
- agentic LLM-powered workplace chatbot
+# OfficeBuddyPrime 
 
-Group Project of Chula NLP 2025
+agentic LLM-powered workplace chatbot
+
+Group Project of Chula NLP Class 2025
 
 Members:
 - Thatphum Paonim
