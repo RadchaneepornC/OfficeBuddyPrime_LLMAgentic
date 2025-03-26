@@ -1,0 +1,60 @@
+{
+    "position_details": {
+        "title": "ML Engineer",
+        "company": "SCB",
+        "location": "Not specified"
+    },
+    "job_overview": "ML Engineer in SCB Data Analytics team is a unique combination of Data Engineer, MLOps, and a bit of Full Stack. You will be responsible for many engineering tasks from integrating incredible amount of data in SCB, to developing and maintaining a production grade software solution to leverage the data and deliver values to the bank and its millions of customers.",
+    "responsibilities": [
+        "Productionize models: architectural design, develop, test, deploy the whole software components as microservices, Databricks workflows, ADF pipelines, etc. to serve in high load environments.",
+        "Work closely with data scientists to track performance, set up model monitoring, automated alerts, and further optimize features/models.",
+        "You will be working on data pipelines and ETL of thousands of tables.",
+        "Ingesting data from various sources: Azure Blob, sFTP, Kafka, SQL Server, REST API.",
+        "Running models and integrate into several destinations: Azure Blob, S3, sFTP, Kafka, Databases, emails, MS teams notifications, etc.",
+        "Further enhance and maintain our in-house platform for managing and automating Features and Models. This involves full stack site, Databricks, job scheduling tools, helper library, and a lot of problem-solving skills."
+    ],
+    "qualifications": {
+        "required": [
+            "Experience in productionizing models and developing software components as microservices",
+            "Experience with Databricks workflows and ADF pipelines",
+            "Experience working with data pipelines and ETL processes",
+            "Experience ingesting data from sources such as Azure Blob, sFTP, Kafka, SQL Server, REST API",
+            "Experience running models and integrating into destinations like Azure Blob, S3, sFTP, Kafka, Databases",
+            "Experience with full stack development and problem-solving skills"
+        ],
+        "preferred": [
+            "Experience with model monitoring and automated alerts",
+            "Experience with enhancing and maintaining platforms for managing and automating Features and Models",
+            "Experience with job scheduling tools and helper libraries"
+        ]
+    },
+    "skills_required": {
+        "technical": [
+            "architectural design",
+            "develop",
+            "test",
+            "deploy",
+            "microservices",
+            "ETL",
+            "problem-solving"
+        ],
+        "soft": [
+            "work closely with data scientists",
+            "communication",
+            "teamwork"
+        ],
+        "technologies": [
+            "Databricks",
+            "ADF pipelines",
+            "Azure Blob",
+            "sFTP",
+            "Kafka",
+            "SQL Server",
+            "REST API",
+            "S3",
+            "MS teams notifications",
+            "job scheduling tools",
+            "helper library"
+        ]
+    }
+}
