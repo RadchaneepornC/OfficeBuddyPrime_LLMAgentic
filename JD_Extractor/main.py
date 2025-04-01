@@ -441,37 +441,44 @@ def main():
         
         # Get the job description
         jd_text = """About the job
-Job Summary
+Who is Sertis?
 
-ML Engineer in SCB Data Analytics team is a unique combination of Data Engineer, MLOps, and a bit of Full Stack. You will be responsible for many engineering tasks from integrating incredible amount of data in SCB, to developing and maintaining a production grade software solution to leverage the data and deliver values to the bank and its millions of customers.
+At Sertis, we stand at the forefront of technological innovation, harnessing the power of cutting-edge AI and data solutions to drive unparalleled business value for enterprises. Our AI and data centric solutions empower businesses, fostering adaptability in the face of change and transforming potential challenges into lucrative opportunities.
 
-Job Description
+Our focus extends across Retail and FMCG industries as well as Energy, Security, and Asset Management. In the future, our expertise will expand to include Financial Services and Telco. We offer comprehensive AI and data science, data infrastructure, data visualization, and software engineering products and services that empower our clients to navigate the complex landscape of the modern business world.
 
-Productionize models: architectural design, develop, test, deploy the whole software components as microservices, Databricks workflows, ADF pipelines, etc. to serve in high load environments.
-Work closely with data scientists to track performance, set up model monitoring, automated alerts, and further optimize features/models.
-You will be working on data pipelines and ETL of thousands of tables.
-Ingesting data from various sources: Azure Blob, sFTP, Kafka, SQL Server, REST API.
-Running models and integrate into several destinations: Azure Blob, S3, sFTP, Kafka, Databases, emails, MS teams notifications, etc.
-Further enhance and maintain our in-house platform for managing and automating Features and Models. This involves full stack site, Databricks, job scheduling tools, helper library, and a lot of problem-solving skills.
+Overview of the job
 
+We are seeking a passionate and skilled Senior LLM Data Scientist to enhance our team's capabilities in designing and implementing LLM based solutions. This role involves active participation in solution design, model implementation and testing as well as making sure to keep up to date with the latest cutting edge GenAI technologies. Collaborate with a diverse team to design and implement AI models that address complex business challenges.
 
-Qualifications
+In this role, you will get to:
 
-Ideal academic background would be a BSc or MSc degree in computer science, software engineering, or information technology.
-Proficiency with Spark, SQL, Python or Scala.
-Experience in Software development life cycles: code, unit tests, git or other SCM, CI/CD pipelines, monitor logs or service resource usages.
-Basics knowledge in computer engineering: computer systems, network, security.
-Understand common machine learning concepts: "features," "metrics," decision trees, gradient boosting, embedding, neural networks, etc. Underlying rigorous mathematical proofs are not required, but ML Engineer needs to understand what a model does to adjust it.
-Communication and interpersonal skills to work with other scientists/engineers and non-technical business units.
+Contribute to a range of projects including but not limited to chatbot, RAG system or custom SLM
+Engage in rigorous testing and validation of AI models to ensure efficiency, reliability and accuracy.
+Utilize a variety of cloud platforms (AWS, Azure, Google Cloud) for the development and deployment of solutions.
+Ensure continuous improvement and upkeep of models by leveraging the latest in AI research and methodologies.
 
+You’ll be successful if you have:
 
-Preferred Qualifications
+Proven experience in Python and familiarity with libraries such as PyTorch, scikit-learn, Pandas, langchain
+Proven experience in designing and implementing RAG system, tuning custom SLM or any other LLM based solution
+Experience with Ubuntu and other Linux distributions.
+Strong understanding of AI and data science, with an emphasis on latest GenAI technology
+Excellent problem-solving skills and the ability to work collaboratively in a team.
+Bachelor’s or Master’s degree in Computer Science, Data Science, Artificial Intelligence, or a related field.
+Strong background in developing solutions on cloud platforms like AWS, Azure, and Google Cloud is a plus
 
-Work Experience as ML Engineer, Data Engineer, Fullstack or Backend Software Engineer, Solution/Cloud Architect or related roles.
-Experience with these libraries is a plus: TensorFlow, MLFlow, SynapseML, TensorRT, ONNX, django, react, etc.
-Experience working with cloud, preferably Azure.
-Data privacy, PDPA awareness
-English Proficiency. Most specs and documents are written in English."""
+What are some benefits working at Sertis? 
+
+The opportunity to work with a dynamic team that is at the forefront of AI technology.
+An hybrid work environment with 3 days or remote work per week
+A culture that is collaborative, innovative, and supportive.
+Competitive salary and benefits package.
+Professional development opportunities and career advancement.
+
+We are excited to see how you can contribute to our team's success and help shape the future of AI!
+
+Sertis may collect, use, or disclose your personal data or personal data of other persons provided by you in order to carry out your recruitment process. For more information, please refer to our Recruitment Privacy Notice"""
         
         # Check if the input is a file path
         if os.path.isfile(jd_text):
