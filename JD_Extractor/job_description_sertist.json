@@ -47,43 +47,33 @@
             "Google Cloud"
         ]
     },
-    "input": "About the job
-Who is Sertis?
-
-At Sertis, we stand at the forefront of technological innovation, harnessing the power of cutting-edge AI and data solutions to drive unparalleled business value for enterprises. Our AI and data centric solutions empower businesses, fostering adaptability in the face of change and transforming potential challenges into lucrative opportunities.
-
-Our focus extends across Retail and FMCG industries as well as Energy, Security, and Asset Management. In the future, our expertise will expand to include Financial Services and Telco. We offer comprehensive AI and data science, data infrastructure, data visualization, and software engineering products and services that empower our clients to navigate the complex landscape of the modern business world.
-
-Overview of the job
-
-We are seeking a passionate and skilled Senior LLM Data Scientist to enhance our team's capabilities in designing and implementing LLM based solutions. This role involves active participation in solution design, model implementation and testing as well as making sure to keep up to date with the latest cutting edge GenAI technologies. Collaborate with a diverse team to design and implement AI models that address complex business challenges.
-
-In this role, you will get to:
-
-Contribute to a range of projects including but not limited to chatbot, RAG system or custom SLM
-Engage in rigorous testing and validation of AI models to ensure efficiency, reliability and accuracy.
-Utilize a variety of cloud platforms (AWS, Azure, Google Cloud) for the development and deployment of solutions.
-Ensure continuous improvement and upkeep of models by leveraging the latest in AI research and methodologies.
-
-You’ll be successful if you have:
-
-Proven experience in Python and familiarity with libraries such as PyTorch, scikit-learn, Pandas, langchain
-Proven experience in designing and implementing RAG system, tuning custom SLM or any other LLM based solution
-Experience with Ubuntu and other Linux distributions.
-Strong understanding of AI and data science, with an emphasis on latest GenAI technology
-Excellent problem-solving skills and the ability to work collaboratively in a team.
-Bachelor’s or Master’s degree in Computer Science, Data Science, Artificial Intelligence, or a related field.
-Strong background in developing solutions on cloud platforms like AWS, Azure, and Google Cloud is a plus
-
-What are some benefits working at Sertis? 
-
-The opportunity to work with a dynamic team that is at the forefront of AI technology.
-An hybrid work environment with 3 days or remote work per week
-A culture that is collaborative, innovative, and supportive.
-Competitive salary and benefits package.
-Professional development opportunities and career advancement.
-
-We are excited to see how you can contribute to our team's success and help shape the future of AI!
-
-Sertis may collect, use, or disclose your personal data or personal data of other persons provided by you in order to carry out your recruitment process. For more information, please refer to our Recruitment Privacy Notice"
+    "input": {
+        "About the job": {
+          "Who is Sertis?": "At Sertis, we stand at the forefront of technological innovation, harnessing the power of cutting-edge AI and data solutions to drive unparalleled business value for enterprises. Our AI and data centric solutions empower businesses, fostering adaptability in the face of change and transforming potential challenges into lucrative opportunities. Our focus extends across Retail and FMCG industries as well as Energy, Security, and Asset Management. In the future, our expertise will expand to include Financial Services and Telco. We offer comprehensive AI and data science, data infrastructure, data visualization, and software engineering products and services that empower our clients to navigate the complex landscape of the modern business world."
+        },
+        "Overview of the job": "We are seeking a passionate and skilled Senior LLM Data Scientist to enhance our team's capabilities in designing and implementing LLM based solutions. This role involves active participation in solution design, model implementation and testing as well as making sure to keep up to date with the latest cutting edge GenAI technologies. Collaborate with a diverse team to design and implement AI models that address complex business challenges.",
+        "In this role, you will get to": [
+          "Contribute to a range of projects including but not limited to chatbot, RAG system or custom SLM",
+          "Engage in rigorous testing and validation of AI models to ensure efficiency, reliability and accuracy.",
+          "Utilize a variety of cloud platforms (AWS, Azure, Google Cloud) for the development and deployment of solutions.",
+          "Ensure continuous improvement and upkeep of models by leveraging the latest in AI research and methodologies."
+        ],
+        "You'll be successful if you have": [
+          "Proven experience in Python and familiarity with libraries such as PyTorch, scikit-learn, Pandas, langchain",
+          "Proven experience in designing and implementing RAG system, tuning custom SLM or any other LLM based solution",
+          "Experience with Ubuntu and other Linux distributions.",
+          "Strong understanding of AI and data science, with an emphasis on latest GenAI technology",
+          "Excellent problem-solving skills and the ability to work collaboratively in a team.",
+          "Bachelor's or Master's degree in Computer Science, Data Science, Artificial Intelligence, or a related field.",
+          "Strong background in developing solutions on cloud platforms like AWS, Azure, and Google Cloud is a plus"
+        ],
+        "What are some benefits working at Sertis?": [
+          "The opportunity to work with a dynamic team that is at the forefront of AI technology.",
+          "An hybrid work environment with 3 days or remote work per week",
+          "A culture that is collaborative, innovative, and supportive.",
+          "Competitive salary and benefits package.",
+          "Professional development opportunities and career advancement."
+        ],
+        "Closing": "We are excited to see how you can contribute to our team's success and help shape the future of AI! Sertis may collect, use, or disclose your personal data or personal data of other persons provided by you in order to carry out your recruitment process. For more information, please refer to our Recruitment Privacy Notice"
+      }
 }
