@@ -1,7 +1,7 @@
 # Try using LLM API from OpenRouter API 
 import os
 import backoff
-from curl_cffi import CurlError
+# from curl_cffi import CurlError
 from requests.exceptions import RequestException
 import logging
 from openai import OpenAI
@@ -17,9 +17,6 @@ from prompt import router_agent as router_agent
 
 from dotenv import load_dotenv
 load_dotenv()
-
-
-
 
 class RouterAgent:
     
@@ -51,28 +48,24 @@ class RouterAgent:
         try:
             system_prompt = router_agent
             prompt_user_input = f"This is user input message for classification: {user_input}"
-            response = self.client.completions.create(
-                model="deepseek/deepseek-chat-v3-0324:free",
-                # max_tokens=4096,
-                system=system_prompt,
-                messages= [
+            
+            response = self.client.chat.completions.create(
+                model="deepseek/deepseek-chat-v3-0324:free", 
+                messages=[
                     {
-                    "role": "system",
-                    "content": [
-                        {
-                        "type": "text",
-                        "text": system_prompt
-                        }
-                    ]
+                        "role": "system",
+                        "content": system_prompt 
                     },
                     {
-                    "role": "user",
-                    "content": prompt_user_input
+                        "role": "user",
+                        "content": prompt_user_input
                     }
                 ],
                 temperature=0.7,
             )
-            return response.content[0].text
+            
+            # Access the response correctly for chat completions
+            return response.choices[0].message.content
             
         except Exception as e:
             logging.error(f"Error in API call: {str(e)}")
@@ -93,7 +86,7 @@ class RouterAgent:
         return match.group(1).strip() if match else ""
 
    
-    def agent_decision(self):
+    def agent_decision(self, user_input: str = "") -> Tuple[str, str]:
         """
         Makes a decision based on the conversation history.
 
@@ -103,10 +96,13 @@ class RouterAgent:
         Returns:
             Tuple[str, str]: The decision and feedback extracted from the response.
         """
-        # Call the API with the conversation history
-        response = self.request_call(user_input="")
+        
+        
+        response = self.request_call(user_input=input('สวัสดี iLabor ยินดีต้อนรับ กรุณาใส่คำถามของคุณ: '))
+
         decision = self.extract_xml(response, 'decision')
         feedback = self.extract_xml(response, 'reason')
+
         return decision, feedback
 
 def main():
@@ -114,6 +110,9 @@ def main():
     decision, feedback = agent.agent_decision()
     print(f"Decision: {decision}")
     print(f"Reason: {feedback}")
+
+if __name__ == "__main__":
+    main()
 
 
 
