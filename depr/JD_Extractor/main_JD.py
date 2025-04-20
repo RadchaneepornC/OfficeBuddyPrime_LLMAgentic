@@ -415,7 +415,7 @@ class JobDescriptionExtractor:
             print(f"Error saving results to file: {str(e)}")
 
 # Main function to run the JD extraction process
-def main():
+def main_JD():
     try:
         # Initialize the extractor
         extractor = JobDescriptionExtractor()
@@ -503,4 +503,4 @@ Sertis may collect, use, or disclose your personal data or personal data of othe
 
 # Example usage
 if __name__ == "__main__":
-    main()
+    main_JD()
