@@ -1,4 +1,4 @@
-# OfficeBuddyPrime 
+# Office Buddy Agent (iLabor)
 
 agentic LLM-powered workplace chatbot
 
