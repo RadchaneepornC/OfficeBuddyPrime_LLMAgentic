@@ -138,7 +138,7 @@ def process_pdf(pdf_path, output_folder="./pdf_images", instruction=None):
 # Example usage
 if __name__ == "__main__":
     # Process a PDF
-    pdf_path = "data/taxreturn.pdf"  # Your PDF path
+    pdf_path = "data/tax.pdf"  # Your PDF path
     extracted_text = process_pdf(pdf_path)
     
     # Print a preview of the result
