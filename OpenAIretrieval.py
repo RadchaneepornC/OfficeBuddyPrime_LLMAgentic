@@ -1,5 +1,6 @@
 # https://github.com/daveebbelaar/ai-cookbook/blob/main/patterns/workflows/1-introduction/4-retrieval.py
 
+# Token overflow: Your request is using 69,017 tokens, but your rate limit is only 30,000 tokens per minute.
 import json
 import os
 
