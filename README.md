@@ -30,8 +30,8 @@ To conduct an empirical study comparing both techniques  `I) RAG` and `II) Vanil
 
 | Method | Upstream Evaluation | Qualitative Result | Average BERT Score-F1 |  ROUGE-L F1 | BLEU-4 | LLM as a Judge (Win Rate %) | LLM as a Judge (Win Odds) |
 |--------|---------------------|------------------------------------------|----------------------------------|--------------------------------|-------------------------------|---------------------------------------------------|--------------------------------------------------|
-| 1. RAG 1-Proprietary Model | Score XX.XX |  | | | | | |
-| 2. RAG 2-Opensource Model| Score XX.XX || | | | | |
+| 1. RAG 1-Proprietary Model | MRR 0.91 |  | 0.9186| 0.5655| 0.3941| | |
+| 2. RAG 2-Opensource Model| MRR 0.91 || | | | | |
 | 3. Vanilla Inference with Anthropic Tools | - | | 0.8870 |0.4219 |0.2725 | | | 
 
 
