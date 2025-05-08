@@ -28,7 +28,7 @@ To conduct an empirical study comparing both techniques  `I) RAG` and `II) Vanil
 
 ## Results
 
-| Method | Upstream Evaluation | Qualitative Result | Average BERT Score-F1 |  ROUGE-L F1 | BLEU-4 | LLM as a Judge (Win Rate %) | Downstream Evaluation - LLM as a Judge (Win Odds) |
+| Method | Upstream Evaluation | Qualitative Result | Average BERT Score-F1 |  ROUGE-L F1 | BLEU-4 | LLM as a Judge (Win Rate %) | Downstream Evaluation - LLM as a Judge (Win rate) |
 |--------|---------------------|------------------------------------------|----------------------------------|--------------------------------|-------------------------------|---------------------------------------------------|--------------------------------------------------|
 | 1. RAG 1-Proprietary Model | Score XX.XX |:heavy_check_mark: | | | | | |
 | 2. RAG 2-Opensource Model| Score XX.XX |:heavy_multiplication_x:| | | | | |
