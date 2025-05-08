@@ -36,7 +36,7 @@ def search_kb(question: str):
     Load the whole knowledge base from the JSON file.
     (This is a mock function for demonstration purposes, we don't search)
     """
-    file_path = os.path.join(os.path.dirname(__file__), "knowledgeBase.json")
+    file_path = os.path.join(os.path.dirname(__file__), "../knowledgeBase.json")
     try:
         with open(file_path, "r", encoding='utf-8') as f:
             return json.load(f)
@@ -79,7 +79,7 @@ messages = [
 ]
 
 completion = client.chat.completions.create(
-    model="gpt-4o",
+    model="o4-mini",
     messages=messages,
     tools=tools,
 )
