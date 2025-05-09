@@ -14,13 +14,13 @@
 To conduct an empirical study comparing both techniques  `I) RAG` and `II) Vanilla inference with tools used (agentic-like)` to answer about **Thai Personal Income Tax : PIT**
 
 ## Technical Methods we used:
-- [1] Preprocess Data
+-  Preprocess Data
     - OCR
     - web scraping
-- [1] LLM based Techniques
-    - RAG
-    - Vanilla Inference with tool used (Agentic liked)
-- [1] Evaluation
+- LLM based Techniques
+    - RAG (Naive RAG & Agentic RAG)
+    - Vanilla Inference with tool used (Inference with long context)
+- Evaluation
     - LLM as a judged
     - Automatic Evaluation Metric : BERT Score, BLUE, ROUGE-l
     - Qualitative Analysis by human
