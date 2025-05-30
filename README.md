@@ -35,6 +35,9 @@ To conduct an empirical study comparing both techniques  `I) RAG` and `II) Vanil
 | 3. Long Context Claude 3.7 Sonnet | - |0.8870 |0.4219 |0.2725 | 4.5| 
 | 4. Claude 3.7 Sonnet  | - | 0.8797 |0.3664 |0.2184 | 3.7 | 
 
+## Presentation slide
+[Slide Link](https://docs.google.com/presentation/d/1f0aijNcMq-LiEN8I8WaDgFDmKHLDNuGvK4xCbjN8bRA/edit?usp=sharing)
+
 
 ## Result Analysis
 
