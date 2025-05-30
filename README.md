@@ -4,7 +4,7 @@
 #### แชทบอท ถาม-ตอบ ภาษีเงินได้บุคคลธรรมดา
 
 ## Group Project of Chula NLP Class 2025
-Our group qualified for ✨ the final championround (top 8 of 32 groups)✨ in the Chula NLP class project.
+Our group qualified for ✨ the final champion round (top 8 of 32 groups)✨ in the Chula NLP class project.
 
 ## Members:
 - Thatphum Paonim
