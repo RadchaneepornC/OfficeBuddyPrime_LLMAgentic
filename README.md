@@ -11,6 +11,11 @@ Our group qualified for ✨ the final champion round (top 8 of 32 groups)✨ in 
 - Ayuth Mangmesap
 - Radchaneeporn Changpun
 
+
+## Demo
+Here's a demo showing an example of the long context method:
+![Demo Animation](./assets/demo.gif)
+
 ## Objective: 
 To conduct an empirical study comparing LLM techniques to answer about **Thai Personal Income Tax : PIT**. 
 The techniques we adopt to use in this study are following:
@@ -18,10 +23,6 @@ The techniques we adopt to use in this study are following:
 - Naive RAG with opensource LLM (Qwen 32B)
 - Long Context proprietary LLM inferencing (Claude 3.7 sonnet)
 - Vanilla proprietary LLM interencing (Claude 3.7 sonnet)
-
-## Demo
-Here's a demo showing an example of the long context method:
-![Demo Animation](./assets/demo.gif)
 
 ## Technical Methods we used:
 -  Preprocess Data (ความรู้ภาษีเงินได้บุคคลธรรมดา จากกรมสรรพากร: https://www.rd.go.th/62337.html)
