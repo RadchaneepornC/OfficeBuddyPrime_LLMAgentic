@@ -19,8 +19,12 @@ The techniques we adopt to use in this study are following:
 - Long Context proprietary LLM inferencing (Claude 3.7 sonnet)
 - Vanilla proprietary LLM interencing (Claude 3.7 sonnet)
 
+## Demo
+Here's a demo showing an example of the long context method:
+![Demo Animation](./assets/demo.gif)
+
 ## Technical Methods we used:
--  Preprocess Data
+-  Preprocess Data (ความรู้ภาษีเงินได้บุคคลธรรมดา จากกรมสรรพากร: https://www.rd.go.th/62337.html)
     - OCR
     - Web scraping
 - LLM based Techniques
@@ -54,6 +58,10 @@ The techniques we adopt to use in this study are following:
 
 
 ## Error Analysis
+
+- Long Context Inference produced correct but excessively lengthy responses that were penalized by automatic metrics like BLEU and ROUGE, which favor answers matching the ground truth length, suggesting the need for prompt refinement to generate more appropriately sized outputs.
+
+- BERT score provided a good range of scores across methods while ROUGE-L F1 and BLEU-4 returned consistently low scores, questioning their suitability for this use case and suggesting a shift toward similarity metrics and human evaluation over N-gram-based metrics.
 
 
 ## Conclusion 
