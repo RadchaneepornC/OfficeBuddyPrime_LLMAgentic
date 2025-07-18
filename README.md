@@ -46,8 +46,8 @@ The techniques we adopt to use in this study are following:
 ### Table 2: Production Metrics comparing Agentic RAG technique and Long Context Claude 3.7 Sonnet
 | Method | Average Input Token (token/question) | Average Output Token (token/question) | COST ($/question) | Time (second/question) |
 |--------|--------------------------------------|---------------------------------------|----------|------|
-| AGENTIC RAG | 9297.1 | 1529.6 | 0.05 | 23.3 |
-| LONG CONTEXT | 13541.7 | 1741.2 | 0.48 | 43.2 |
+| Agentic RAG Claude 3.7 Sonnet | 9297.1 | 1529.6 | 0.05 | 23.3 |
+| Long Context Claude 3.7 Sonnet| 13541.7 | 1741.2 | 0.48 | 43.2 |
 
 ## Presentation slide
 [Slide Link](https://docs.google.com/presentation/d/1f0aijNcMq-LiEN8I8WaDgFDmKHLDNuGvK4xCbjN8bRA/edit?usp=sharing)
@@ -57,7 +57,9 @@ The techniques we adopt to use in this study are following:
 
 
 ## Conclusion 
-- In terms of techniques, Agentic RAG Claude 3.5 Sonnet ranks highest overall, followed by Naive RAG RT-32B-Qwen, Long Context Claude 3.5 Sonnet, and finally Claude 3.5 Sonnet alone. The results show that both RAG implementations substantially improved performance across all metrics compared to the base model.
 
-- In terms of proprietary LLM versus open-source LLM, considering automatic metrics and qualitative analysis by humans, there is no significant difference. This suggests using open-source LLMs for experimental purposes, with further studies in other aspects such as latency, multi-turn memory, etc. for production purposes.
+- **Technique Performance**: Table 1 shows Agentic RAG Claude 3.5 Sonnet ranks highest, followed by Naive RAG RT-32B-Qwen, Long Context Claude 3.5 Sonnet, and Claude 3.5 Sonnet alone. Both RAG implementations substantially outperformed the base model across all metrics.
 
+- **Proprietary vs. Open-Source LLMs**: Table 1 results show no significant performance difference between proprietary and open-source LLMs in automatic metrics and human evaluation. Open-source LLMs are viable for experiments, though production deployment requires further study of latency and multi-turn memory.
+
+- **Production Cost**: Table 2 demonstrates Agentic RAG costs 10× less per question ($0.05 vs. $0.48) with 2× faster response time (23.3 vs. 43.2 seconds) than Long Context Inference. This makes Agentic RAG more production-ready, though Long Context remains acceptable if cost optimization techniques are developed.
